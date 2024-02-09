@@ -1,11 +1,11 @@
-// const li = document.getElementsByTagName("li")
-// for(let i =0; i < li.length; i++){
-//     console.log(li[i].innerText)
-// }
-// const h1 = document.getElementsByTagName("h2")
-// for (let bang of h1){
-//     console.log(bang.innerText)
-// }
+const section = document.getElementsByTagName("section");
+const section2 = document.getElementsByTagName("section")[1];
+console.log(section2)
 
-let news = document.getElementById("new");
-console.log(news.classList)
+for(let sec of section){
+    console.log(sec)
+    sec.style.border = "2px solid red";
+    sec.style.padding = "20px";
+    sec.style.margin = "20px";
+    sec.style.backgroundColor = "orange";
+}
