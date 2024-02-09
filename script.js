@@ -5,7 +5,7 @@ const section2 = document.getElementsByTagName("section")[1];
     let remove = section2.classList.remove("hasan2")
     let att = section2.getAttribute("class")
 
-    console.log(att)
+    // console.log(att)
 
 for(let sec of section){
     // console.log(sec)
@@ -14,3 +14,6 @@ for(let sec of section){
     sec.style.margin = "20px";
     sec.style.backgroundColor = "orange";
 }
+
+const section3 = document.getElementById("section2")
+section3.classList.add("bg-yellow")
