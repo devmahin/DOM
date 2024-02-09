@@ -1,6 +1,8 @@
 const section = document.getElementsByTagName("section");
 const section2 = document.getElementsByTagName("section")[1];
-    let attSet = section2.setAttribute("class", "section2")
+    let attSet = section2.setAttribute("class", "section2 hasan")
+    let add = section2.classList.add("hasan2")
+    let remove = section2.classList.remove("hasan2")
     let att = section2.getAttribute("class")
 
     console.log(att)
