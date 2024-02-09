@@ -16,4 +16,5 @@ for(let sec of section){
 }
 
 const section3 = document.getElementById("section2")
+section3.setAttribute("class" , "section33 inp")
 section3.classList.add("bg-yellow")
