@@ -26,3 +26,40 @@
 // // let firstChild = content
 // console.log(content.parentElement.parentElement)
 // // const li = content
+
+
+
+
+const main = document.getElementById("appen")
+// console.log(main.)
+let sec = document.createElement("section")
+    main.append(sec)
+
+// let ulsec = document.createElement("ul")
+//     sec.append(ulsec)
+
+// let li1 = document.createElement("li")
+// li1.innerText = "I am comming li1"
+// ulsec.append(li1)
+// let li2 = document.createElement("li")
+// li2.innerText = "I am comming li2"
+// ulsec.append(li2)
+
+// let li3 = document.createElement("li")
+// li3.innerText = "I am comming li3"
+// ulsec.append(li3)
+
+// let li4 = document.createElement("li")
+// li4.innerText = "I am comming li4"
+// ulsec.append(li4)
+
+
+
+sec.innerHTML = `
+    <ul>
+        <li>first element 1</li>
+        <li>second element 2</li>
+        <li>third element 3</li>
+        <li>forth element 4</li>
+    </ul>
+`
